@@ -1,0 +1,21 @@
+{
+  "name": "devlinker",
+  "version": "1.0.0",
+  "description": "This is Devlinker project",
+  "main": "index.js",
+  "scripts": {
+    "start" : "node src/app.js",
+    "dev" : "nodemon src/app.js"
+  },
+  "keywords": [
+    "node.js",
+    "express.js",
+    "mongoDb",
+    "javasript"
+  ],
+  "author": "shubham",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1"
+  }
+}
