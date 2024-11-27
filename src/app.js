@@ -3,27 +3,8 @@ const express = require("express");
 const app = express();
 
 app.get("/user" , (req, res) => {
+    console.log(req.query  )
     res.send("Handling GET API handler");
-});
-
-app.post("/user" , (req, res) => {
-    res.send("Handling POST API handler");
-});
-
-app.delete("/user" , (req, res) => {
-    res.send("Handling DELETE API handler");
-});
-
-app.put("/user" , (req, res) => {
-    res.send("Handling PUT API handler");
-});
-
-app.patch("/user" , (req, res) => {
-    res.send("Handling PATCH API handler");
-});
-
-app.use("/test", (req, res) => {
-    res.send("Handling response on dashbord");
 });
 
 // app.use("/about" , (req, res) => {
